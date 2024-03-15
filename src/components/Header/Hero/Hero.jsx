@@ -3,7 +3,7 @@
 const Hero = () => {
     return (
         <section className="">
-    <div className="hero min-h-screen rounded-2xl" style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
+    <div className="hero min-h-screen rounded-2xl" style={{backgroundImage: 'url(./src/assets/banner.png)'}}>
   <div className="hero-overlay bg-opacity-60  rounded-2xl"></div>
   <div className="hero-content text-center text-neutral-content rounded-2xl">
     <div className="max-w-md">

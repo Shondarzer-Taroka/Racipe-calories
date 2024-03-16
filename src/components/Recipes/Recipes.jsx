@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Recipe from '../Recipe/Recipe';
 
-const Recipes = () => {
+const Recipes = ({wantToCook}) => {
     let [recipe,setRecipe]=useState([])
 
 
@@ -11,8 +11,8 @@ const Recipes = () => {
         .then(data=> setRecipe(data))
     },[])
     return (
-        <div>
-            {recipe.map((value,indx)=> <Recipe key={indx} recipe={value}></Recipe>)}
+        <div className='grid md:gap-4 md:grid-cols-1 lg:grid-cols-2 gap-2'>
+            {recipe.map((value,indx)=> <Recipe wantToCook={wantToCook} key={indx} recipe={value}></Recipe>)}
         </div>
     );
 };

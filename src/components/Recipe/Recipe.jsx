@@ -1,13 +1,14 @@
 import { MdOutlineWatchLater } from "react-icons/md";
 import { FaFire } from "react-icons/fa";
-const Recipe = ({ recipe }) => {
+
+const Recipe = ({ recipe,wantToCook}) => {
     let {recipeImage,recipeId,recipeName,description,ingredients,preparingTime,calories}=recipe
-    console.log(ingredients);
+    // console.log(ingredients);
     return (
         <section>
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-full md:w-[330px] lg:w-[340px] bg-base-100 shadow-xl">
                 <figure className="px-10 pt-10">
-                    <img src={recipeImage} alt="Shoes" className="rounded-xl" />
+                    <img  src={recipeImage} alt="recipe" className="rounded-xl lg:w-[339px]" />
                 </figure>
                 <div className="card-body items-left text-center">
                     <h2 className="card-title">{recipeName}</h2>
@@ -20,11 +21,12 @@ const Recipe = ({ recipe }) => {
                     </div>
                     <hr />
                     <div id='time-calories' className="flex gap-5">
-                      <span className="flex gap-2 items-center"><MdOutlineWatchLater /> <span>minutes</span> </span>
-                      <span className="flex gap-2 items-center"><FaFire /> <span>calories</span> </span>
+                      <span className="flex gap-2 items-center"><MdOutlineWatchLater /> <span>{preparingTime} minutes</span> </span>
+                      <span className="flex gap-2 items-center"><FaFire /> <span>{calories} calories</span> </span>
                     </div>
                     <div className="card-actions">
-                        <button className="btn btn-info rounded-full px-5 bg-[#0BE58A] font-semibold">Want to Cook</button>
+                        <button onClick={()=>wantToCook(recipe)} className="btn btn-info rounded-full px-5 bg-[#0BE58A] font-semibold">Want to Cook</button>
+                         
                     </div>
                 </div>
             </div>

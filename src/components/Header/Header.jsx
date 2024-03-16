@@ -6,10 +6,10 @@ const Header = () => {
         <section>
     <div className="navbar bg-base-100 flex justify-between">
   <div className="">
-    <a className="btn btn-ghost text-3xl font-bold">Recipe Calories</a>
+    <a className=" text-3xl font-bold">Recipe Calories</a>
   </div>
   
-  <div className='flex justify-between gap-3'> 
+  <div className='hidden md:flex lg:flex justify-between gap-3'> 
         <li className='list-none'>Home</li>
         <li  className='list-none'>Recipes</li>
         <li  className='list-none'>About</li>

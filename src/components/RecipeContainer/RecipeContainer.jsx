@@ -17,9 +17,12 @@ const RecipeContainer = () => {
         if (!alradyExist) {
             setSelectRecipe([...selectRecipe, info])
         }
-        else {
-            toast('alrady exist')
-        }
+       
+        else{ 
+            
+            return toast('alrady exist')
+         }   
+        
     }
 
     function preparing(info) {
@@ -57,12 +60,15 @@ const RecipeContainer = () => {
     }
 
     return (
-        <section className="flex flex-col-reverse md:flex-row lg:flex-row justify-between">
-            <aside>
+    //    flex gap-3 flex-col-reverse md:flex-col-reverse lg:flex-row justify-between
+        <section className="grid gap-5 grid-cols-1 lg:grid-cols-[_60%_40%]">
+            {/*  lg:w-[60%]*/}
+            <aside className="w-full ">
                 <Recipes wantToCook={wantToCook}></Recipes>
             </aside>
             {/*                side bar         */}
-            <aside>
+            <aside className="row-start-1 row-end-2 ... lg:col-start-2 lg:col-end-3">
+                {/*  lg:w-[38%]*/}
                 <RecipeCart prepare={prepare} preparing={preparing} selectRecipe={selectRecipe}></RecipeCart>
 
             </aside>

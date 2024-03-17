@@ -5,18 +5,23 @@ const Recipe = ({ recipe,wantToCook}) => {
     let {recipeImage,recipeId,recipeName,description,ingredients,preparingTime,calories}=recipe
     // console.log(ingredients);
     return (
+        // md:w-[330px] lg:w-[340px]
+        // w-full   md:w-80 lg:w-80 xl:w-[350px] 
+
         <section>
-            <div className="card w-full md:w-[330px] lg:w-[340px] bg-base-100 shadow-xl">
-                <figure className="px-10 pt-10">
-                    <img  src={recipeImage} alt="recipe" className="rounded-xl lg:w-[339px]" />
+            <div className="bg-base-100 rounded-2xl border-2 shadow-xl">
+                <figure className="py-10 px-10 md:px-5 md:py-5 lg:px-5 lg:pt-5 xl:px-4 xl:py-4">
+                    <img  src={recipeImage} alt="recipe" className="rounded-xl w-[400px] h-[200px]" />
                 </figure>
                 <div className="card-body items-left text-center">
                     <h2 className="card-title">{recipeName}</h2>
                     <p className='text-left'>{description}</p>
                     <hr className='bg-slate-600' />
-                    <div id='ingredients' className='text-left'>
-                      
-                      {ingredients.map((value,indx)=><li key={indx}>{value}</li>)}
+                    <div id='ingredients' className='text-left h-36'>
+                       
+                       <h1 className="text-xl font-semibold hidden">Ingredients:  {ingredients.length} </h1>
+
+                      {ingredients.map((value,indx)=><li className="pl-4 py-1" key={indx}>{value}</li>)}
 
                     </div>
                     <hr />

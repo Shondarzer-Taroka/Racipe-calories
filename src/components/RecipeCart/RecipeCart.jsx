@@ -20,9 +20,10 @@ const RecipeCart = ({ selectRecipe, preparing, prepare }) => {
     //   let a=  selectRecipe.map(v=> v.recipeName)
     //   console.log(a);
     return (
+        // md:w-[500px] lg:w-[500px]
         <section>
-            <div className="card w-full md:w-[500px] lg:w-[500px] bg-base-100 shadow-xl">
-                <div className="card-body">
+            <div className="card w-full bg-base-100 shadow-xl">
+                <div className="">
                     <h2 className="text-2xl font-bold text-center">Want to cook: {selectRecipe.length}</h2>
                     <hr />
                     {/* table starts */}

@@ -9,7 +9,7 @@ const Header = () => {
     <a className=" text-3xl font-bold">Recipe Calories</a>
   </div>
   
-  <div className='hidden md:flex lg:flex justify-between md:gap-3 lg:gap-8'> 
+  <div className='hidden md:flex lg:flex justify-between md:gap-3 lg:gap-8 text-[#555455]'> 
         <li className='list-none'>Home</li>
         <li  className='list-none'>Recipes</li>
         <li  className='list-none'>About</li>
@@ -19,16 +19,16 @@ const Header = () => {
     
   <div className="flex-none gap-2">
     <div className="form-control">
-        <div className="flex gap-2 items-center input input-bordere bg-slate-300 rounded-full"> 
+        <div className="flex gap-2 items-center input input-bordere bg-[#dbdbdce3] rounded-full"> 
      <CiSearch />
-      <input type="text" placeholder="Search" className=" w-24 md:w-auto" />
+      <input type="text" placeholder="Search" className=" w-24 md:w-auto placeholder:text-[#555455]" />
         </div>
 {/* input input-bordere */}
     </div>
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn bg-[#0BE58A] btn-ghost btn-circle avatar">
         <div className=" rounded-full">
-        <IoMdContact  className="text-[34px] " />
+        <IoMdContact  className="text-[44px] " />
 
           {/* <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" /> */}
         </div>

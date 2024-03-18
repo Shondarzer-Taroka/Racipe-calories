@@ -9,7 +9,7 @@ const Header = () => {
     <a className=" text-3xl font-bold">Recipe Calories</a>
   </div>
   
-  <div className='hidden md:flex lg:flex justify-between md:gap-3 lg:gap-8 text-[#555455]'> 
+  <div className='hidden md:flex lg:flex justify-between md:gap-3 lg:gap-8 '> 
         <li className='list-none'>Home</li>
         <li  className='list-none'>Recipes</li>
         <li  className='list-none'>About</li>

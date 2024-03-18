@@ -22,7 +22,7 @@ const RecipeCart = ({ selectRecipe, preparing, prepare }) => {
     return (
         // md:w-[500px] lg:w-[500px]
         <section>
-            <div className="card w-full bg-base-100 shadow-xl">
+            <div className="card w-full bg-base-100 shadow-xl border-2">
                 <div className="">
                     <h2 className="text-2xl font-bold text-center">Want to cook: { selectRecipe.length}</h2>
                     <hr />

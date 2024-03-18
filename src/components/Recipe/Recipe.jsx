@@ -15,9 +15,9 @@ const Recipe = ({ recipe,wantToCook}) => {
                 </figure>
                 <div className="card-body items-left text-center">
                     <h2 className="card-title">{recipeName}</h2>
-                    <p className='text-left text-[#878787]'>{description}</p>
+                    <p className='text-left text-[#878787] h-[70px]'>{description}</p>
                     <hr className='bg-slate-600' />
-                    <div id='ingredients' className='text-left h-36'>
+                    <div id='ingredients' className='text-left md:h-[250px] lg:h-[250px]'>
                        
                        <h1 className="text-xl font-semibold">Ingredients:  {ingredients.length} </h1>
 

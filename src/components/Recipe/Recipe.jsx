@@ -15,17 +15,17 @@ const Recipe = ({ recipe,wantToCook}) => {
                 </figure>
                 <div className="card-body items-left text-center">
                     <h2 className="card-title">{recipeName}</h2>
-                    <p className='text-left'>{description}</p>
+                    <p className='text-left text-[#878787]'>{description}</p>
                     <hr className='bg-slate-600' />
                     <div id='ingredients' className='text-left h-36'>
                        
-                       <h1 className="text-xl font-semibold hidden">Ingredients:  {ingredients.length} </h1>
+                       <h1 className="text-xl font-semibold">Ingredients:  {ingredients.length} </h1>
 
-                      {ingredients.map((value,indx)=><li className="pl-4 py-1" key={indx}>{value}</li>)}
+                      {ingredients.map((value,indx)=><li className="pl-4 py-1 text-[#878787]" key={indx}>{value}</li>)}
 
                     </div>
                     <hr />
-                    <div id='time-calories' className="flex gap-5">
+                    <div id='time-calories' className="flex gap-5 text-[#878787]">
                       <span className="flex gap-2 items-center"><MdOutlineWatchLater /> <span>{preparingTime} minutes</span> </span>
                       <span className="flex gap-2 items-center"><FaFire /> <span>{calories} calories</span> </span>
                     </div>

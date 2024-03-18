@@ -1,6 +1,6 @@
 [
     {
-      "recipeImage": "https://i.ibb.co/kJQsD5z/img9.jpg",
+      "recipeImage": "https://i.ibb.co/jM5qjqC/chicken-thai-stir-fry.jpg",
       "recipeId": 1,
       "recipeName": "Chicken Stir Fry",
       "description": "A delicious and healthy chicken stir fry with fresh vegetables.",
@@ -14,7 +14,7 @@
       "calories": 350
     },
     {
-      "recipeImage": "https://i.ibb.co/9rMKW8r/img4.jpg",
+      "recipeImage": "https://i.ibb.co/108ZSR5/Quick-Veggie-Pasta.jpg",
       "recipeId": 2,
       "recipeName": "Vegetable Pasta",
       "description": "A classic pasta dish loaded with fresh vegetables and herbs.",
@@ -28,7 +28,7 @@
       "calories": 280
     },
     {
-      "recipeImage": "https://i.ibb.co/W3cVt7j/img5.jpg",
+      "recipeImage": "https://i.ibb.co/HD51PN9/how-to-grill-salmon.jpg",
       "recipeId": 3,
       "recipeName": "Grilled Salmon",
       "description": "A classic new Delicious grilled salmon seasoned with lemon and herbs.",
@@ -42,7 +42,7 @@
       "calories": 300
     },
     {
-      "recipeImage": "https://i.ibb.co/9w05g2z/img6.jpg",
+      "recipeImage": "https://i.ibb.co/Q8gFH0P/zesty-quinoa-salad.jpg",
       "recipeId": 4,
       "recipeName": "Quinoa Salad",
       "description": "A refreshing and nutritious quinoa salad with mixed vegetables.",
@@ -56,7 +56,7 @@
       "calories": 220
     },
     {
-      "recipeImage": "https://i.ibb.co/5sNrtvh/img7.jpg",
+      "recipeImage": "https://i.ibb.co/cY1shNz/mushroom-and-chicken-risotto.jpg",
       "recipeId": 5,
       "recipeName": "Mushroom Risotto",
       "description": "Creamy and flavorful very nice mushroom risotto cooked to perfection.",
@@ -70,7 +70,7 @@
       "calories": 320
     },
     {
-      "recipeImage": "https://i.ibb.co/V9whqyY/img8.jpg",
+      "recipeImage": "https://i.ibb.co/SrxHccb/greek-salad.jpg",
       "recipeId": 6,
       "recipeName": "Greek Salad",
       "description": "A classic Greek salad with tomatoes, cucumbers, olives, and feta cheese.",

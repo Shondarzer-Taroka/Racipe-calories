@@ -61,7 +61,7 @@ const RecipeContainer = () => {
 
     return (
     //    flex gap-3 flex-col-reverse md:flex-col-reverse lg:flex-row justify-between
-        <section className="grid gap-5 grid-cols-1 lg:grid-cols-[_60%_40%]">
+        <section className="grid gap-5 grid-cols-1 lg:grid-cols-[_60%_1fr]">
             {/*  lg:w-[60%]*/}
             <aside className="w-full ">
                 <Recipes wantToCook={wantToCook}></Recipes>

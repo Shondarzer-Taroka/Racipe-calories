@@ -1,9 +1,9 @@
-
+import banner from '../../../../src/assets/banner.png'
 
 const Hero = () => {
     return (
         <section className="">
-    <div className="hero min-h-screen rounded-2xl" style={{backgroundImage: 'url(./src/assets/banner.png)'}}>
+    <div className="hero min-h-screen rounded-2xl" style={{backgroundImage: `url(${banner})`}}>
   <div className="hero-overlay bg-opacity-60  rounded-2xl"></div>
   <div className="hero-content text-center text-neutral-content rounded-2xl">
     <div className="max-w-xl">

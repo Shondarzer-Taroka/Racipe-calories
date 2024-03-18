@@ -20,7 +20,7 @@ const RecipeContainer = () => {
        
         else{ 
             
-            return toast('alrady exist')
+            return toast('Already exist')
          }   
         
     }
